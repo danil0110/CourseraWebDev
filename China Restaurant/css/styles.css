@@ -66,6 +66,15 @@ body {
     font-size: 1.8em;
 }
 
+#nav-list span.glyphicon-home {
+    margin-left: 10px;
+}
+
+#nav-list .glyphicon-home > span {
+    font-family: 'Oxygen', sans-serif;
+    margin-left: 5px;
+}
+
 #phone {
     margin-top: 5px;
 }
