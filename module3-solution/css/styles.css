@@ -7,13 +7,44 @@ body {
     background-color: #999999;
     border-radius: 0;
     border-bottom: 2px solid black;
-    height: 60px;
+}
+
+icon-bar {
+    background-color: black;
+}
+
+.navbar-toggle {
+    background-color: gray;
+    border: black solid 1px;
+}
+
+.navbar-toggle:hover {
+    border: white solid 1px;
+}
+
+@media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: white;
+        border-top: black solid 2px;
+    }
+}
+
+ul#nav-list li {
+    background-color: white;
+}
+
+ul#nav-list li a {
+    color: black;
 }
 
 .company-name {
     font-size: 28px;
     color: black;
     font-weight: bold;
+}
+
+.main-content .title {
+    color: black;
 }
 
 .main-content .menu-tiles .tile {
